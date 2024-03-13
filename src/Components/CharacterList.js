@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CharacterCard from './CharacterCard';
-import './index.css';
+import './styles.css';
 
 const CharacterList = () => {
     const [characters, setCharacters] = useState([]);

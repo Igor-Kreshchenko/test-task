@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import CharacterList from './CharacterList';
+import CharacterList from './Components/CharacterList';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './styles.css';
 
 const CharacterDetailsModal = ({ character, onClose, homeworld }) => {
     const date = new Date(character.created);
@@ -13,7 +13,7 @@ const CharacterDetailsModal = ({ character, onClose, homeworld }) => {
             <div className="backdrop" onClick={onClose} />
             <div className="character-details-modal">
                 <h2>{character.name}</h2>
-                <p>Height: {character.height} meters</p>
+                <p>Height: {character.height/100} meters</p>
                 <p>Mass: {character.mass} kg</p>
                 <p>Created: {formattedDate}</p>
                 <p>Number of films: {character.films.length}</p>

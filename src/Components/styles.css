@@ -1,0 +1,88 @@
+.button {
+  height: 30px;
+  margin-right: 10px;
+  color: blue
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.character-card {
+  padding: 10px;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.character-card:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.character-details-modal {
+  min-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.human-background {
+  background-color: lightblue;
+}
+
+.droid-background {
+  background-color: lightgreen;
+}
+
+.wookiee-background {
+  background-color: sandybrown;
+}
+
+.rodian-background {
+  background-color: lime;
+}
+
+.hutt-background {
+  background-color: khaki;
+}
+
+.yoda-background {
+  background-color: lightgrey;
+}
+
+.trandoshan-background {
+  background-color: darkgreen;
+}
+
+.mon-calamari-background {
+  background-color: teal;
+}
+
+.ewok-background {
+  background-color: saddlebrown;
+}
+
+.default-background {
+  background-color: rgb(132, 131, 204); 
+}

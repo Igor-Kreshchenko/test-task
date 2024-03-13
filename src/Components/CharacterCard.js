@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CharacterDetailsModal from './CharacterDetailsModal';
 import axios from 'axios';
-import './index.css';
+import './styles.css';
 
 const getSpeciesBackground = species => {
     switch (species) {
